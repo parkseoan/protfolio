@@ -1,0 +1,516 @@
+._1280-px-portfolio-template,
+._1280-px-portfolio-template * {
+  box-sizing: border-box;
+}
+._1280-px-portfolio-template {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.navigation {
+  background: #ffffff;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 8rem;
+  position: relative;
+  overflow: hidden;
+}
+.nav-nav-menu {
+  position: absolute;
+  inset: 0;
+}
+.about {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font-family: "Epilogue-Regular", sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  position: absolute;
+  right: 26rem;
+  top: calc(50% - 1.4rem);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.work {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font-family: "Epilogue-Regular", sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  position: absolute;
+  right: 16.9rem;
+  top: calc(50% - 1.4rem);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font-family: "Epilogue-Regular", sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  position: absolute;
+  right: 5rem;
+  top: calc(50% - 1.4rem);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo {
+  width: 4.9rem;
+  height: 3rem;
+  position: absolute;
+  left: 5rem;
+  top: calc(50% - 1.5rem);
+}
+.logo2 {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font-family: "Epilogue-SemiBold", sans-serif;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skills-section {
+  background: #ffffff;
+  padding: 18rem 14rem 18rem 14rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 12.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.image-placeholder {
+  flex-shrink: 0;
+  width: 13rem;
+  height: 13rem;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.headline-subhead {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div {
+  color: var(--black, #2d2d2d);
+  text-align: center;
+  font-family: var(--h3-font-family, "Epilogue-SemiBold", sans-serif);
+  font-size: var(--h3-font-size, 2.7rem);
+  line-height: var(--h3-line-height, 4.2rem);
+  font-weight: var(--h3-font-weight, 600);
+  position: relative;
+  width: 24.990000000000002rem;
+}
+.skill2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5.4rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.skill3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 24.990000000000002rem;
+  height: 22.8rem;
+  position: relative;
+}
+.skills-section2 {
+  background: #ffffff;
+  padding: 18rem 14rem 18rem 14rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.main-title {
+  color: var(--black, #2d2d2d);
+  text-align: center;
+  font-family: var(--h3-font-family, "Epilogue-SemiBold", sans-serif);
+  font-size: var(--h3-font-size, 2.7rem);
+  line-height: var(--h3-line-height, 4.2rem);
+  font-weight: var(--h3-font-weight, 600);
+  position: relative;
+  width: 24.990000000000002rem;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-anima-app-com {
+  color: var(--black, #2d2d2d);
+  text-align: center;
+  font-family: var(--body-text-font-family, "Epilogue-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 1.7rem);
+  line-height: var(--body-text-line-height, 2.7rem);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  width: 24.990000000000002rem;
+}
+.latest-work-section {
+  background: #ffffff;
+  padding: 2rem 10rem 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div2 {
+  color: var(--black, #2d2d2d);
+  text-align: center;
+  font-family: var(--h2-font-family, "Epilogue-SemiBold", sans-serif);
+  font-size: var(--h2-font-size, 3.2rem);
+  line-height: var(--h2-line-height, 4.2rem);
+  font-weight: var(--h2-font-weight, 600);
+  position: relative;
+}
+.work-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.stripe-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 6.75rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.work-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.image {
+  flex-shrink: 0;
+  width: 31.5rem;
+  height: 31.5rem;
+  position: relative;
+  object-fit: cover;
+}
+.headline-subhead2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 31.5rem;
+  position: relative;
+}
+.project-title {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font-family: var(--subtitle-font-family, "Epilogue-SemiBold", sans-serif);
+  font-size: var(--subtitle-font-size, 2rem);
+  line-height: var(--subtitle-line-height, 3rem);
+  font-weight: var(--subtitle-font-weight, 600);
+  position: relative;
+  width: 31.5rem;
+}
+.ui-art-drection {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font-family: var(--body-text-font-family, "Epilogue-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 1.7rem);
+  line-height: var(--body-text-line-height, 2.7rem);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  width: 31.5rem;
+}
+.clients-section {
+  background: #ffffff;
+  padding: 10rem 10rem 15rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.client-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div3 {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font-family: "Epilogue-SemiBold", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 600;
+  position: relative;
+  width: 11.3rem;
+  height: 2.698rem;
+}
+.clients-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 6.75rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 108rem;
+  position: relative;
+}
+.client-card-mobile {
+  background: #fffcf5;
+  border-style: solid;
+  border-color: #ffd285;
+  border-width: 0.15rem;
+  padding: 3rem 5rem 3rem 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.client-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-anima-app-com2 {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font-family: var(--subtitle-font-family, "Epilogue-SemiBold", sans-serif);
+  font-size: var(--subtitle-font-size, 2rem);
+  line-height: var(--subtitle-line-height, 3rem);
+  font-weight: var(--subtitle-font-weight, 600);
+  position: relative;
+  width: 26.3rem;
+}
+.client-card-mobile2 {
+  background: #fffcf5;
+  border-style: solid;
+  border-color: #ffd285;
+  border-width: 0.15rem;
+  padding: 3rem 5rem 3rem 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 31.5rem;
+  position: relative;
+}
+.footer {
+  background: #ffffff;
+  padding: 0rem 10rem 7rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-info {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 0.2rem 0rem 0rem 0rem;
+  padding: 7rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-info2 {
+  display: flex;
+  flex-direction: row;
+  gap: 19rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-message {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.let-s-work-together {
+  color: var(--black, #2d2d2d);
+  text-align: left;
+  font-family: var(--h2-font-family, "Epilogue-SemiBold", sans-serif);
+  font-size: var(--h2-font-size, 3.2rem);
+  line-height: var(--h2-line-height, 4.2rem);
+  font-weight: var(--h2-font-weight, 600);
+  position: relative;
+  width: 36rem;
+}
+.this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-anima-app-com-this-is-a-template-figma-file-turned-into-code-using-anima-learn-more-at-anima-app-com {
+  color: #2d2d2d;
+  text-align: left;
+  font-family: var(--body-text-font-family, "Epilogue-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 1.7rem);
+  line-height: var(--body-text-line-height, 2.7rem);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  width: 36rem;
+}
+.social-icons {
+  flex-shrink: 0;
+  width: 23.2rem;
+  height: 3.6rem;
+  position: relative;
+  overflow: visible;
+}
+.text-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-fields2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-input-desktop {
+  background: #f3f3f3;
+  padding: 2.1rem 3rem 2.1rem 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 53rem;
+  position: relative;
+}
+.write-something {
+  color: #2d2d2d;
+  text-align: left;
+  font-family: var(--body-text-font-family, "Epilogue-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 1.7rem);
+  line-height: var(--body-text-line-height, 2.7rem);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.button {
+  background: var(--black, #2d2d2d);
+  padding: 2.5rem 8.2rem 2.5rem 8.2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.submit {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: "Epilogue-SemiBold", sans-serif;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
