@@ -1,16 +1,12 @@
-._1280-px-portfolio-template,
-._1280-px-portfolio-template * {
-  box-sizing: border-box;
-}
-._1280-px-portfolio-template {
-  display: flex;
+.df{display: flex;}
+.wrap {
   flex-direction: column;
   gap: 0rem;
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
 }
-.navigation {
+.nav {
   background: #ffffff;
   align-self: stretch;
   flex-shrink: 0;
@@ -21,6 +17,12 @@
 .nav-nav-menu {
   position: absolute;
   inset: 0;
+}
+.section1{
+  width: 100%;
+}
+.sec1_img{
+
 }
 .about {
   color: var(--black, #2d2d2d);
